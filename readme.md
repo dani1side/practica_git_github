@@ -1,8 +1,12 @@
 - ¿Qué comando utilizaste en el paso 11? ¿Por qué?
-"git reset --hard HEAD~1"
+
+git reset --hard HEAD~1
+
 Con este comando pierdo el el working copy que es lo que pide el ejercio.
 Para no perder el working copy tendría que lanzar el mismo comando pero sin --hard
 git reset HEAD~1
+
+
 
 
 - ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
@@ -17,6 +21,8 @@ f5b67dc HEAD@{1}: commit: Actualizo primera vez git-nuestro.md
 7b56f1e (HEAD -> styled, main) HEAD@{3}: commit (initial): Creo el fichero git-nuestro.md
 dmazon@MC-012 git_github_practica % git reset --hard 7b56f1e
 HEAD is now at 7b56f1e Creo el fichero git-nuestro.md
+
+
 
 
 - El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
