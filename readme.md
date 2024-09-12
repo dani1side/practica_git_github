@@ -1,3 +1,4 @@
+-------
 - ¿Qué comando utilizaste en el paso 11? ¿Por qué?
 
 git reset --hard HEAD~1
@@ -6,7 +7,7 @@ Con este comando pierdo el el working copy que es lo que pide el ejercio.
 Para no perder el working copy tendría que lanzar el mismo comando pero sin --hard
 git reset HEAD~1
 
-
+-------
 
 
 - ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
