@@ -1,3 +1,6 @@
+# Practica git & github - BigData14
+*Daniel Mazón*
+
 -------
 - ¿Qué comando utilizaste en el paso 11? ¿Por qué?
 
