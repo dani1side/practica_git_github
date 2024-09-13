@@ -2,7 +2,7 @@
 *Daniel Mazón*
 
 -------
-- ¿Qué comando utilizaste en el paso 11? ¿Por qué?
+> - ¿Qué comando utilizaste en el paso 11? ¿Por qué?
 
 git reset --hard HEAD~1
 
@@ -13,7 +13,8 @@ git reset HEAD~1
 -------
 
 
-- ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
+> - ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
+
 Pues me ayuda git reflog para ver todos los identificadores de los commits.
 Y con git reset --hard y el identificador de commit, vuelvo al estado anterior y
 comprueba que he recuperado los datos
@@ -38,7 +39,7 @@ Creo el fichero git-nuestro.md
 -------
 
 
-- El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
+> - El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
 
 Tengo que revisar la rama en la que estoy, para estar seguro que estoy en styled:
 
@@ -56,7 +57,7 @@ Already up to date.
 -------
 
 
-- El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
+> - El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
 
 He tenido un conflicto, git-nuestro.md ha sido cambiado en las dos ramas.
 
@@ -71,7 +72,7 @@ Hago un git add y commit
 
 -------
 
-- El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
+> - El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
 
 git checkout main
 git merge styled
@@ -85,13 +86,13 @@ que esta rama no tiene
 
 -------
 
-- ¿Qué comando o comandos utilizaste en el paso 25?
+> - ¿Qué comando o comandos utilizaste en el paso 25?
 
 git log --graph
 
 -------
 
-- El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
+> - El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
   
 He utilzado el comando
 git merge --no-ff title
@@ -103,26 +104,30 @@ Como las ramas tienen el fichero diferente, la ha fusionado borrando una linea
 
 -------
 
-- ¿Qué comando o comandos utilizaste en el paso 27?
+> - ¿Qué comando o comandos utilizaste en el paso 27?
+
 Para no perder los cambios de workin copy he utilizado
 git reset  HEAD~1
 
 -------
 
-- ¿Qué comando o comandos utilizaste en el paso 28?
+> - ¿Qué comando o comandos utilizaste en el paso 28?
+
 Con git status miro lo que hay diferente.
 Lanzo git checkout git-nuestro.md
 Y confirmo con git status
 
 -------
 
-- ¿Qué comando o comandos utilizaste en el paso 29?
+> - ¿Qué comando o comandos utilizaste en el paso 29?
+
 git branch -d title, pero como está fusionad D
 Deleted branch title (was 2f5da32).
 
 -------
 
-- ¿Qué comando o comandos utilizaste en el paso 30?
+> - ¿Qué comando o comandos utilizaste en el paso 30?
+
 No puedo hacer el merge porque ya no existe la ramas
 git branch
   htmlify
@@ -139,7 +144,7 @@ Luego he creado title otra vez y he realizo el merge
 
 -------
 
-- ¿Qué comando o comandos usaste en el paso 32?
+> - ¿Qué comando o comandos usaste en el paso 32?
 
 git reflog
 Me muestra todos los commit
@@ -154,7 +159,7 @@ Date:   Thu Sep 12 23:54:14 2024 +0200
 
 -------
 
-- ¿Qué comando o comandos usaste en el punto 33?
+> - ¿Qué comando o comandos usaste en el punto 33?
 
 git reflog
 35b4409 HEAD@{1}: checkout: moving from main to 35b4409
